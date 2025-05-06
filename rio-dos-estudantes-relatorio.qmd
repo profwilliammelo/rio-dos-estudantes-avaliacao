@@ -43,22 +43,75 @@ A oficina **Rio dos Estudantes** foi avaliada antes e depois com o mesmo questio
 
 # Introdução
 
-A oficina **Rio dos Estudantes** busca despertar o interesse dos(as) alunos(as) pela história do Rio de Janeiro, conectando memórias do bairro, da escola e da cidade. Para avaliar como variam as percepções de alunos participantes antes e depois das oficinas, aplicamos o mesmo questionário **no início** e **no final** da oficina (119 – 122 respostas por item).
+As oficinas **Rio dos Estudantes** buscam despertar o interesse dos(as) alunos(as) pela história do Rio de Janeiro, conectando memórias do bairro, da escola e da cidade. Para avaliar mudanças de percepção, aplicamos o **mesmo questionário** no **início** e no **final** das oficinas (119 – 122 respostas por item).
 
 # Metodologia
 
-### Desenho do estudo
+### Desenho do estudo  
 
-Foi conduzido um **estudo de coorte longitudinal** junto a estudantes de 6 escolas públicas do Rio de Janeiro que participaram da oficina *Rio dos Estudantes — 2023.1*. O mesmo questionário foi aplicado **antes** (N = 682) e **após** (N = 140) a intervenção. O pareamento exato de registros por *nome do estudante* e *escola* resultou em uma coorte emparelhada de **122 alunos** respondentes nos dois momentos, que constitui a base de análise de variação.
+Realizou-se um estudo de abordagem quantitativa **de coorte longitudinal** com estudantes de 6 escolas públicas do município do Rio de Janeiro (edição 2023.1). O questionário foi aplicado:
 
+* **Pré-teste** : N = 682  
+* **Pós-teste** : N = 140  
+
+O pareamento exato por *nome do estudante* + *escola* gerou uma coorte emparelhada de **122 alunos** que responderam às duas medições. **Toda a análise inferencial refere-se exclusivamente a esse grupo pareado**, que constitui o universo alvo deste estudo.
 
 ### Instrumento
 
-O questionário incluiu:
+1. **Dados sociodemográficos** – idade, bairro, cor/raça, identidade de gênero, escolaridade dos responsáveis, entre outros.  
+2. **Sete escalas Likert (1 = “muito pouco” → 4 = “muito”)** sobre conhecimento histórico e percepção de representatividade (ver @tbl-variaveis).  
+3. **Três questões de percepção de impacto** das oficinas (itens 18–20), aplicadas apenas no pós-teste.
 
-1. **Dados sociodemográficos** – idade, bairro, cor/raça, identidade de gênero, escolaridade dos responsáveis, entre outros.
-2. **Sete escalas Likert (1 = “muito pouco” → 4 = “muito”)** sobre conhecimento histórico e percepção de representatividade (@tbl-variaveis).
-3. **Três questões de percepção de impacto** das oficinas (itens 18–20) aplicadas apenas no pós-teste.
+### Limitações do estudo e estratégias adotadas
+
+#### 1  Confiabilidade
+
+| Fonte de ameaça                       | Risco                                                                 | O que fizemos agora                                                | Sugestões                                                      |
+|--------------------------------------|-----------------------------------------------------------------------|--------------------------------------------------------------------|-----------------------------------------------------------------------|
+| **Item único por dimensão**          | Não permite estimar consistência interna (α de Cronbach)              | Itens diretos para reduzir carga e tempo de aplicação              | Incluir ≥ 2 itens por dimensão para estimar α ou ω                    |
+| **Estabilidade temporal**            | Respostas podem flutuar sem intervenção                               | Mesmas escolas, horários e roteiros padronizado; mesma equipe oficineira          | Aplicar teste-reteste 7-10 dias antes da oficina                      |
+| **Viés de aplicação/entrevistador**  | Entonação ou explicação diferenciada entre turmas                     | Roteiro impresso + treinamento único dos oficineiros              | Consolidação do instrumento já existente e treinamentos mais rigorosos de aplicação
+
+---
+
+#### 2  Validade externa (generalizabilidade)
+
+| Fonte de ameaça                                                            | Risco para extrapolação                                                                                           | O que fizemos agora                                                  | Sugestões                                                                                                   |
+|----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
+| **Amostra de conveniência** (6 escolas públicas do RJ)                     | Resultados podem não valer para outras regiões, níveis socioeconômicos ou escolas privadas                        | Descrevemos contexto e perfil socioeconômico                           | Replicar em outras redes/municípios; usar amostragem estratificada                                                |
+| **Atrito diferencial** – apenas 18 % do pré-teste aparece no pós-teste     | Grupo pareado é **mais jovem, mais masculino e recebe mais Auxílio Brasil** (p < 0,05) → pode distorcer médias    | Quantificamos atrito e relatamos diferenças         | Amostras maiores e probabilísticas - sorteadas sempre são as que garantem maior validade externa. Ou buscar zerar a perda de respostas entre início e fim das oficinas, tomando o todo como amostra censitária participante das oficinas           |
+
+---
+
+#### 3  Validade interna (atribuição causal)
+
+| Fonte de ameaça                                   | Risco para inferência causal dentro do grupo pareado | O que fizemos agora                                                            | Sugestões                                                |
+|---------------------------------------------------|------------------------------------------------------|--------------------------------------------------------------------------------|----------------------------------------------------------------|
+| **Ausência de grupo-controle**                    | Maturação natural ou eventos externos não controlados | Desenho pré-pós pareado reduz variância individual, mas não isola fatores externos | Utilizar turmas “lista-de-espera” ou escolas similares como controle, sem aplicação das oficinas para comparação|
+| **Autorreporte e desejabilidade social**          | Alunos podem superestimar ganhos para “agradar”       | Questionário unico e bem conhecido; mediador oficineiro; reforço de que não há resposta “certa”   | Incluir quizzes objetivos de conhecimento no final das oficinas  e/ou coletador externo                     |
+| **Viés de lembrança** (mesmo item repetido)       | Alunos podem lembrar da resposta anterior             | Intervalo ≥ 4 semanas entre pré e pós                                          | Alternar ordem das opções Likert ou usar formulações equivalentes, não idênticas|
+| **Escala Likert de 4 pontos sem opção neutra**    | Força decisão e pode deslocar respostas               | Escala par escolhida por razões pedagógicas                                     | Testar escala de 5 pontos (inclui “Indiferente”)               |
+
+---
+
+
+##### Atrito e validade interna
+
+Adotamos, por escolha de desenho, que a **“população do estudo”** corresponde apenas aos 122 estudantes que responderam tanto ao pré-quanto ao pós-teste; todas as inferências são feitas **dentro dessa coorte emparelhada**. Nesse enquadramento, o atrito diferencial não afeta a **comparação antes × depois** — pois quem saiu simplesmente deixa de compor o denominador analítico.
+
+Contudo, a saída de participantes **pode distorcer a estimativa do efeito** se estiver relacionada à própria intervenção (por exemplo, alunos menos engajados abandonarem o pós-teste por acharem a oficina “difícil” ou, ao contrário, aqueles já satisfeitos acharem desnecessário responder de novo). Sem um **grupo-controle paralelo**, não conseguimos verificar se essa associação entre intervenção e desistência ocorreu. Um controle equivaleria a um “termômetro externo”:
+
+* se as taxas e perfis de perda fossem semelhantes nos dois grupos, poderíamos atribuir as diferenças observadas às oficinas com maior segurança;
+* se o atrito fosse maior ou distinto apenas no grupo da oficina, isso sinalizaria viés potencial nos resultados.
+
+Portanto, ainda que o nosso foco legítimo seja o grupo que permaneceu, reconhecer e reportar o atrito — e considerar um grupo-controle em futuras edições — é fundamental para modular a análise  e interpretação dos resultados, além da tomada de decisões.
+
+---
+
+
+##### Síntese  
+O pareamento **Antes × Depois** controla diferenças basais individuais, mas o **alto atrito** e a **ausência de controle externo** restringem a generalização e impedem atribuição causal plena. Tornar essas limitações transparentes é fundamental para a interpretação e a continuidade do estudo.
+
 
 ### Esquema do desenho do estudo
 
@@ -162,6 +215,11 @@ kable(variaveis, align = "l")
 As comparações percentuais foram apresentadas em gráficos de barras e em quadros resumen; A produção de visualizações e cálculos foi realizada em **R (versão 4.2)**; a documentação e reprodutibilidade ficaram asseguradas pelo uso de **Quarto**.
 
 
+
+
+
+# Resultados
+
 ```{r}
 # Carrega pacotes essenciais
 library(tidyverse)      # inclui dplyr, tidyr, ggplot2, etc.
@@ -175,19 +233,123 @@ library(purrr)          # programação funcional
 #    - mutate(): coloca nome_estudante e escola em minúsculas para uniformizar.
 #    - distinct(): elimina registros duplicados mantendo apenas a primeira ocorrência.
 inicio <- read.csv("inicial_2023_1.csv", sep = ";") %>%
-  mutate(
-    nome_estudante = tolower(nome_estudante),
-    escola         = tolower(escola)
-  ) %>%
-  distinct(nome_estudante, escola, .keep_all = TRUE)
+  mutate(nome_estudante = tolower(nome_estudante),
+         escola         = tolower(escola)) %>%
+  distinct(nome_estudante, escola, .keep_all = TRUE) %>%
+  rename_with(
+    ~ paste0(.x, "_antes"),
+    c(
+      "idade",
+      "genero",
+      "cor",
+      "escolaridade_mae",
+      "escolaridade_pai",
+      "auxilio_brasil_ou_bolsa_familia",
+      "religiao"
+    )
+  )
+
 
 final <- read.csv("final_2023_1.csv", sep = ";") %>%
+  mutate(nome_estudante = tolower(nome_estudante),
+         escola         = tolower(escola)) %>%
+  distinct(nome_estudante, escola, .keep_all = TRUE) %>%
+  rename_with(
+    ~ paste0(.x, "_depois"),
+    c(
+      "idade",
+      "genero",
+      "cor",
+      "escolaridade_mae",
+      "escolaridade_pai",
+      "auxilio_brasil_ou_bolsa_familia",
+      "religiao"
+    )
+  )
+```
+
+#### Análise de atrito pré-pós
+
+```{r}
+#| label: atrito
+
+library(dplyr)
+library(gtsummary)
+library(gt)
+
+# 1. Flag de permanência: quem aparece em 'final'
+atrito <- inicio %>%
   mutate(
     nome_estudante = tolower(nome_estudante),
     escola         = tolower(escola)
   ) %>%
-  distinct(nome_estudante, escola, .keep_all = TRUE)
+  left_join(
+    final %>%
+      mutate(
+        nome_estudante = tolower(nome_estudante),
+        escola         = tolower(escola)
+      ) %>%
+      distinct(nome_estudante, escola) %>%
+      mutate(permaneceu = 1),
+    by = c("nome_estudante", "escola")
+  ) %>%
+  mutate(
+    permanencia = if_else(is.na(permaneceu), 0, 1)   # 1 = permaneceu, 0 = não respondeu depois
+  )
 
+# 2. Tabela de comparação de características iniciais
+tabela_atrito <- atrito %>%
+  select(
+    permanencia,
+    idade_antes,
+    genero_antes,
+    cor_antes,
+    auxilio_brasil_ou_bolsa_familia_antes,
+    religiao_antes,
+  ) %>%
+  tbl_summary(
+    by = permanencia,
+    missing = "no",
+    statistic = list(
+      all_continuous() ~ "{mean} ({sd})",      # médias ± dp para numéricas
+      all_categorical() ~ "{n} ({p}%)"        # contagens e percentuais para categóricas
+    ),
+    label = list(
+      idade_antes                                ~ "Idade (anos)",
+      genero_antes                               ~ "Gênero",
+      cor_antes                                  ~ "Raça/Cor",
+      auxilio_brasil_ou_bolsa_familia_antes      ~ "Recebe Auxílio Brasil/Bolsa Família",
+      religiao_antes                             ~ "Possui religião"
+    )
+  ) %>%
+  add_p(
+    test = list(
+      idade_antes ~ "t.test",                   # t-test para idade (numérica × grupo)
+      all_categorical() ~ "fisher.test"         # Fisher exato para todas as categóricas
+    )
+  ) 
+  
+tabela_atrito %>% as_gt() %>%
+  tab_options(
+    table.font.size                  = px(14),
+    table.width                      = pct(80),
+    data_row.padding                 = px(5),
+    table.background.color           = "transparent",
+    heading.background.color         = "transparent",
+    column_labels.background.color   = "transparent",
+    heading.border.bottom.color      = "transparent",
+    column_labels.border.bottom.color= "transparent"
+  ) %>%
+  fmt_missing(columns = everything(), missing_text = "-")
+
+
+```
+
+Dos 682 alunos do pré-teste, 560 (82 %) não responderam ao pós-teste e 122 (18 %) permaneceram até o final. O grupo remanescente era significativamente mais jovem (15 ± 5 vs. 17 ± 3 anos; p < 0,001), tinha maior proporção de homens (52 % vs. 37 %; p = 0,011) e maior prevalência de beneficiários do Auxílio Brasil/Bolsa Família (50 % vs. 37 %; p = 0,009). Em contrapartida, não houve diferença estatisticamente significativa na distribuição por raça/cor (p = 0,5) nem na proporção de alunos com religião (p = 0,3). Esses resultados indicam que, apesar do atrito diferir em idade, gênero e condição socioeconômica, as dimensões de raça e religião permaneceram representativas na coorte emparelhada.
+
+Adicionalmente, se essas características que diferem entre “ficaram” e “saíram” estiverem também relacionadas à forma como os estudantes participaram da oficina (por exemplo, alunos mais engajados ou com melhor suporte familiar tendem a concluir o processo), há um viés de seleção ligado à própria intervenção. Isso pode inflar ou subestimar os efeitos observados, pois os resultados da coorte pareada refletem sobretudo a experiência de quem se manteve motivado e disponível para o pós-teste.
+
+```{r}
 # 2. Junção dos dois datasets (antes e depois)
 #    - inner_join() garante que só ficamos com alunos presentes em ambos os arquivos.
 #    - suffix adiciona "_antes" e "_depois" às colunas sobrepostas.
@@ -259,10 +421,7 @@ dados_likert <- dados_likert %>%
 #     nome_estudante, escola, variavel, periodo (Antes/Depois),
 #     valor (1–4), resposta_likert (categorias descritivas),
 #     var_rotulo (nome legível da dimensão)
-
 ```
-
-# Resultados
 
 ::: {.callout-note appearance="simple"}
 
@@ -350,30 +509,90 @@ library(dplyr)
 library(tidyr)
 library(ggplot2)
 
-plot_dim <- function(dim_name) {
-  dados_percentuais %>%
-    filter(var_rotulo == dim_name) %>%
-    ggplot(aes(x = periodo, y = percentual, fill = resposta_likert)) +
-      # barras lado a lado
-      geom_col(position = position_dodge(width = 0.9), colour = "black") +
-      # rótulos centralizados verticalmente dentro de cada barra
-      geom_label(aes(label = sprintf("%.1f%%", percentual)),
-                 position = position_dodge(width = 0.9),
-                 vjust = 0.5,   # centraliza verticalmente
-                 size = 3,
-                 show.legend = FALSE) +
-      scale_y_continuous(limits = c(0, 100), breaks = seq(0, 100, 20),
-                         expand = expansion(mult = c(0, 0.05))) +
-      labs(title = "", x = "Percentual (%)", y = NULL,
-           fill = "Escala (1–4)") +
-      theme_classic(base_size = 14) +
-      theme(
-        legend.position  = "bottom",
-        axis.title.y     = element_blank(),
-        panel.background = element_rect(fill = NA, colour = NA),
-        plot.background  = element_rect(fill = NA, colour = NA)
-      )
+# Testes separados
+
+# 1. lista de dimensões únicas
+dims <- unique(dados_likert$var_rotulo)
+
+# 2. função que faz o teste para uma dimensão
+teste_wilcox_dim <- function(dim_name) {
+  df_wide <- dados_likert %>% 
+    filter(var_rotulo == dim_name) %>% 
+    select(nome_estudante, periodo, valor) %>%
+    pivot_wider(names_from = periodo, values_from = valor) %>%
+    filter(!is.na(Antes) & !is.na(Depois))
+  
+  wt <- wilcox.test(df_wide$Antes, df_wide$Depois, paired = TRUE)
+  
+  tibble(
+    dimensao   = dim_name,
+    estatistica = wt$statistic,
+    p_value     = signif(wt$p.value, 2),
+    n_pares     = nrow(df_wide)
+  )
 }
+
+# 3. aplica para todas as dimensões e retorna um único data.frame
+resultados_wilcox <- map_dfr(dims, teste_wilcox_dim)
+
+# 4. imprime no console
+# print(resultados_wilcox)
+
+
+# grafico com inclusao dos testes
+
+plot_dim <- function(dim_name) {
+  # 1. Filtra os dados longos para a dimensão
+  df_raw <- dados_likert %>% 
+    filter(var_rotulo == dim_name) %>% 
+    select(nome_estudante, periodo, valor)
+  
+  # 2. Pivot para wide e manter apenas pares completos
+  df_complete <- df_raw %>%
+    pivot_wider(names_from = periodo, values_from = valor) %>%
+    filter(!is.na(Antes) & !is.na(Depois))
+  
+  # 3. Vetores pareados de Before/After
+  antes  <- df_complete$Antes
+  depois <- df_complete$Depois
+  
+  # 4. Teste de Wilcoxon pareado
+  wt   <- wilcox.test(antes, depois, paired = TRUE)
+  pval <- signif(wt$p.value, 2)
+  
+  # 5. Percentuais para plotagem
+  df_pct <- dados_percentuais %>% 
+    filter(var_rotulo == dim_name)
+  
+  y_max <- max(df_pct$percentual, na.rm = TRUE) * 1.40
+  
+  # 6. Construção do gráfico
+  ggplot(df_pct, aes(x = periodo, y = percentual, fill = resposta_likert)) +
+    geom_col(position = position_dodge(0.9), colour = "black") +
+    geom_label(aes(label = sprintf("%.1f%%", percentual)),
+               position = position_dodge(0.9),
+               vjust = 0.5, size = 3, show.legend = FALSE) +
+    annotate("text",
+             x = 1.5, y = y_max,
+             label = paste0("p = ", pval),
+             size  = 5) +
+    scale_y_continuous(limits = c(0, 100), breaks = seq(0, 100, 20),
+                       expand = expansion(mult = c(0, 0.05))) +
+    labs(title = "",
+         x     = "Período",
+         y     = "Percentual (%)",
+         fill  = "Escala (1–4)") +
+    theme_classic(base_size = 14) +
+    theme(
+      legend.position  = "bottom",
+      axis.title.y     = element_blank(),
+      panel.background = element_rect(fill = NA),
+      plot.background  = element_rect(fill = NA)
+    )
+}
+
+
+
 
 
 
@@ -589,6 +808,7 @@ microdados <- dados_likert %>%
 
 ```
 
+
 ```{r tbl-microdados}
 #| label: tbl-microdados
 #| tbl-cap: "Microdados (todos os casos com respostas Antes e Depois)"
@@ -621,55 +841,90 @@ DT::datatable(
 
 ```
 
-
-```{r tbl-resumo-dim}
+```{r}
 #| label: tbl-resumo-dim
-#| tbl-cap: "Trajetórias individuais: número e percentual de alunos que melhoraram, permaneceram ou pioraram em cada dimensão"
-#| warning: false
-#| message: false
+#| tbl-cap: "Distribuição de melhoria, permanência e piora por dimensão"
+library(gtsummary)
+library(gt)
 
-library(dplyr)
-library(tidyr)
-library(DT)
-
-# 1. Constrói a tabela-resumo ordenando pelas maiores melhorias
-resumo_dim <- microdados %>%
-  group_by(var_rotulo, status) %>%
-  summarise(contagem = n(), .groups = "drop") %>%
-  group_by(var_rotulo) %>%
-  mutate(
-    total = sum(contagem),
-    perc  = round(100 * contagem / total, 1)
-  ) %>%
-  ungroup() %>%
-  pivot_wider(
-    names_from  = status,
-    values_from = c(contagem, perc),
-    names_sep   = "_"
-  ) %>%
-  arrange(desc(perc_Melhorou), perc_Piorou) %>%    # ordena
-  rename(
-    Dimensão          = var_rotulo,
-    `Melhorou (n)`    = contagem_Melhorou,
-    `Permaneceu (n)`  = contagem_Permaneceu,
-    `Piorou (n)`      = contagem_Piorou,
-    `% Melhorou`      = perc_Melhorou,
-    `% Permaneceu`    = perc_Permaneceu,
-    `% Piorou`        = perc_Piorou
+# 1. Renomeia var_rotulo para dimensao e monta a tabela cruzada sem coluna "Total"
+tabela_status <- microdados %>%
+  rename(dimensao = var_rotulo) %>%
+  tbl_cross(
+    row     = status,       # linhas  = Melhorou / Permaneceu / Piorou
+    col     = dimensao,     # colunas = dimensões
+    percent = "column",     # % por coluna
+    missing = "no",         # ignora missings
+    margin  = "row"      # só total por coluna, sem coluna de totais
   )
 
-# 2. Tabela interativa com filtros e botões de exportação
-datatable(
-  resumo_dim,
-  filter     = "top",
-  extensions = "Buttons",
-  options    = list(
-    dom      = "Bfrtip",
-    buttons  = c("copy", "csv", "excel", "pdf", "print"),
-    pageLength = nrow(resumo_dim),
-    scrollX  = TRUE
+
+# 2. Converte para GT e estiliza
+tabela_status %>%
+  as_gt() %>%
+  sub_missing(missing_text = "-") %>%  # substitui missings
+  tab_options(
+    table.font.size                   = px(14),
+    table.width                       = pct(80),
+    data_row.padding                  = px(5),
+    table.background.color            = "transparent",
+    heading.background.color          = "transparent",
+    column_labels.background.color    = "transparent",
+    heading.border.bottom.color       = "transparent",
+    column_labels.border.bottom.color = "transparent"
   )
-)
+
+
+
+```
+
+```{r}
+
+
+# library(dplyr)
+# library(tidyr)
+# library(DT)
+
+# tabela em DT 
+# 
+# # 1. Constrói a tabela-resumo ordenando pelas maiores melhorias
+# resumo_dim <- microdados %>%
+#   group_by(var_rotulo, status) %>%
+#   summarise(contagem = n(), .groups = "drop") %>%
+#   group_by(var_rotulo) %>%
+#   mutate(
+#     total = sum(contagem),
+#     perc  = round(100 * contagem / total, 1)
+#   ) %>%
+#   ungroup() %>%
+#   pivot_wider(
+#     names_from  = status,
+#     values_from = c(contagem, perc),
+#     names_sep   = "_"
+#   ) %>%
+#   arrange(desc(perc_Melhorou), perc_Piorou) %>%    # ordena
+#   rename(
+#     Dimensão          = var_rotulo,
+#     `Melhorou (n)`    = contagem_Melhorou,
+#     `Permaneceu (n)`  = contagem_Permaneceu,
+#     `Piorou (n)`      = contagem_Piorou,
+#     `% Melhorou`      = perc_Melhorou,
+#     `% Permaneceu`    = perc_Permaneceu,
+#     `% Piorou`        = perc_Piorou
+#   )
+# 
+# # 2. Tabela interativa com filtros e botões de exportação
+# datatable(
+#   resumo_dim,
+#   filter     = "top",
+#   extensions = "Buttons",
+#   options    = list(
+#     dom      = "Bfrtip",
+#     buttons  = c("copy", "csv", "excel", "pdf", "print"),
+#     pageLength = nrow(resumo_dim),
+#     scrollX  = TRUE
+#   )
+# )
 
 
 ```
@@ -706,7 +961,7 @@ variaveis_percepcao <- final %>%
   names()
 
 dados_percepcao <- final %>%
-  select(all_of(c("genero", "cor", variaveis_percepcao))) %>%
+  select(all_of(c("genero_depois", "cor_depois", variaveis_percepcao))) %>%
   pivot_longer(
     cols = all_of(variaveis_percepcao),
     names_to = "variavel",
@@ -770,10 +1025,10 @@ dimensoes <- unique(dados_percepcao$var_rotulo)
 walk(dimensoes, function(dim) {
   dados_percepcao %>%
     filter(var_rotulo == dim) %>%
-    group_by(resposta_likert, genero) %>%
+    group_by(resposta_likert, genero_depois) %>%
     summarise(n = n(), .groups = "drop") %>%
     mutate(percentual = 100 * n / sum(n)) %>%
-    ggplot(aes(x = resposta_likert, y = percentual, fill = genero)) +
+    ggplot(aes(x = resposta_likert, y = percentual, fill = genero_depois)) +
       geom_col(position = position_dodge(width = 0.8), color = "black") +
       geom_label(aes(label = paste0(round(percentual,1), "%")),
                  position = position_dodge(width = 0.8),
@@ -817,10 +1072,10 @@ dimensoes <- unique(dados_percepcao$var_rotulo)
 walk(dimensoes, function(dim) {
   dados_percepcao %>%
     filter(var_rotulo == dim) %>%
-    group_by(resposta_likert, cor) %>%
+    group_by(resposta_likert, cor_depois) %>%
     summarise(n = n(), .groups = "drop") %>%
     mutate(percentual = 100 * n / sum(n)) %>%
-    ggplot(aes(x = resposta_likert, y = percentual, fill = cor)) +
+    ggplot(aes(x = resposta_likert, y = percentual, fill = cor_depois)) +
       geom_col(position = position_dodge(width = 0.8), color = "black") +
       geom_label(aes(label = paste0(round(percentual,1), "%")),
                  position = position_dodge(width = 0.8),
@@ -850,7 +1105,9 @@ walk(dimensoes, function(dim) {
 ```
 
 
-Nos sete eixos avaliados antes e depois da oficina, o retrato agregado mostra o mesmo padrão: **forte retração no extremo “Muito Pouco” (-7 a -23 p.p.) acompanhada de expansão nas categorias intermediárias**. Em “Contar História do Bairro”, por exemplo, o desconhecimento declarado caiu 23 p.p. enquanto as respostas “Pouco” (+18 p.p.) e “Bem” (+8 p.p.) quase dobraram. Tendência semelhante surgiu em “História da Escola” (-22 / +20 / +6 p.p.) e “História do Rio” (-23 / +28 / +2 p.p.). Já em “Importância da História” — dimensão que partia de níveis altos — parte dos alunos desceu de “Muito” para “Bem” (-14 p.p.), sugerindo uma visão mais crítica, não perda de relevância. Em “Representatividade em Livros”, a queda de 10 p.p. em “Muito” combinada ao aumento de 21 p.p. em “Pouco” indica maior consciência de lacunas no acervo.
+Nos sete eixos avaliados antes e depois da oficina, o retrato agregado manteve o mesmo padrão: forte retração no extremo “Muito Pouco” (-7 a -23 p.p.) acompanhada de expansão nas categorias intermediárias. Em “Contar História do Bairro”, por exemplo, o desconhecimento declarado caiu 23 p.p., enquanto as respostas “Pouco” (+18 p.p.) e “Bem” (+8 p.p.) quase dobraram. Tendência semelhante surgiu em “História da Escola” (-22 / +20 / +6 p.p.) e “História do Rio” (-23 / +28 / +2 p.p.). Já em “Importância da História” — dimensão que partia de níveis altos — parte dos alunos desceu de “Muito” para “Bem” (-14 p.p.), sugerindo uma visão mais crítica, não perda de relevância. Em “Representatividade em Livros”, a queda de 10 p.p. em “Muito” combinada ao aumento de 21 p.p. em “Pouco” indica maior consciência de lacunas no acervo.
+
+Convém notar, contudo, que as mudanças em quatro dimensões (“Contar História do Rio”, “História do Rio”, “Importância da História” e “Representatividade em Livros”) não atingiram significância estatística nos testes pareados (p ≥ 0,05), ao passo que os demais três eixos — ligados ao contexto escolar e de bairro — apresentaram diferenças significativas. Portanto, apesar do padrão visual de melhoria ser geral, apenas parte dele foi confirmada estatisticamente.
 
 
 Quanto Às **Trajetórias individuais (melhora / piora / manutenção)**, a leitura caso-a-caso confirma uma variação não homgênea nos itens:
@@ -859,9 +1116,9 @@ Quanto Às **Trajetórias individuais (melhora / piora / manutenção)**, a leit
 
 * **Contar História do Rio** – 33 % avançaram, 49 % ficaram estáveis e 18 % voltaram atrás. O tema despertou curiosidade geral, mas quase um quinto da turma sofreu regressão; incorporar quizzes periódicos e mapas interativos ajudará a fixar conteúdo e reduzir as quedas.
 
-* **História da Escola** – A maior taxa de melhoria (37 %) e apenas 14 % de retrocesso indicam que trabalhar com documentos e fotografias do próprio colégio foi especialmente mobilizador. Consolidar esse ganho exige dar visibilidade pública às narrativas produzidas (exposição permanente ou site da escola).
+* **História da Escola** – Segunda maior taxa de melhoria (37 %) e apenas 14 % de retrocesso indicam que trabalhar com documentos e fotografias do próprio colégio foi especialmente mobilizador. Consolidar esse ganho exige dar visibilidade pública às narrativas produzidas (exposição permanente ou site da escola).
 
-* **História do Bairro** – 39 % melhoraram, 50 % se mantiveram e apenas 11 % pioraram: a dimensão com o menor percentual de retrocesso. Roteiros guiados elaborados pelos alunos podem converter a metade estável em avanços adicionais.
+* **História do Bairro** – 39 % melhoraram (a maior taxa de melhoria), 50 % se mantiveram e apenas 11 % pioraram: a dimensão com o menor percentual de retrocesso. Roteiros guiados elaborados pelos alunos podem converter a metade estável em avanços adicionais.
 
 * **História do Rio** – Apesar de 31 % de melhora, esta dimensão apresentou o segundo maior índice de piora (19 %). A amplitude cronológica e a complexidade dos eventos exigem uma sequência didática mais longa; sugerimos dividir o conteúdo em módulos temáticos curtos.
 
@@ -919,7 +1176,7 @@ Quando observamos cada estudante pareado antes–depois, o panorama se nuança:
 
 ## Conclusão
 
-O estudo longitudinal demonstra que a oficina **cumpriu o papel de romper a barreira do desconhecimento**: agregadamente, “Muito Pouco” cedeu espaço a “Pouco” e “Bem” em todas as dimensões, e de 31 % a 39 % dos estudantes subiram pelo menos um degrau na escala. Contudo, entre 11 % e 30 % regrediram, variando conforme o tema.
+O estudo longitudinal demonstra que a oficina **cumpriu o papel de romper a barreira do desconhecimento**: agregadamente, “Muito Pouco” cedeu espaço a “Pouco” e “Bem” em quase todas as dimensões, e de 31 % a 39 % dos estudantes subiram pelo menos um degrau na escala. Contudo, entre 11 % e 30 % regrediram, variando conforme o tema.As dimensões ligadas a conhecimento local ganham destaque: Contar História do Bairro, História da Escola e História do Bairro apresentaram as três maiores dimensões de melhoria dos mesmos alunos entre antes x depois e são justamente para essas três dimensões que foram observadas diferenças significativas nas respostas entre antes e depois. O restante apresentou variação nos índices mas sem significância estatística entre as amostras pré-pós teste como vimos nos gráficos, o que provavelmente deve ser por conta do índice de piora nessas dimensões, contrabalanceando uma direção positiva entre antes e depois, o que trás incerteza aos resultados. 
 
 As evidências sugerem dois caminhos complementares:
 
